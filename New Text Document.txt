@@ -1,0 +1,28 @@
+agenda
+
+-> setup the github repo
+---> new envt
+---> setup.py
+---> requirements.txt
+'''
+(base) C:\Users\Pranay>cd D:\coding _sessions\ML_end_to_end_project
+
+(base) C:\Users\Pranay>D:
+
+(base) D:\coding _sessions\ML_end_to_end_project>code .
+
+(base) D:\coding _sessions\ML_end_to_end_project>
+'''
+
+#creating new env
+
+conda create -p venv python==3.8 -y
+
+
+# To activate this environment, use
+#
+#     $ conda activate "D:\coding _sessions\ML_end_to_end_project\venv"
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
