@@ -1,5 +1,5 @@
 import sys, os
-import logging
+from src.logger import logging 
 
 #function for how your message look like
 def error_message_details(error, error_detail:sys):
@@ -20,10 +20,10 @@ class CustomException(Exception):
         return self.error_message
     
 
-if __name__ == "__main__":
-    try:
-        a = 1/0
-    except Exception as e:
+# if __name__ == "__main__":
+#     try:
+#         a = 1/0
+#     except Exception as e:
         
-        logging.info("ZeroDivisionError")
-        raise CustomException (e, sys)
+#         logging.info("ZeroDivisionError")
+#         raise CustomException (e, sys)
